@@ -1,0 +1,1 @@
+/home/chintu/ur_ws/src/ur3e_spawn_gripper_moveit_config/launch/setup_assistant.launch.py

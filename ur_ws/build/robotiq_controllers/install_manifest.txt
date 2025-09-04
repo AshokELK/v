@@ -1,0 +1,3 @@
+/home/chintu/ur_ws/install/robotiq_controllers/lib/librobotiq_controllers.so
+/home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport.cmake
+/home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport-noconfig.cmake

@@ -1,0 +1,45 @@
+Built target ament_cmake_python_copy_ur_admittance
+running egg_info
+writing ur_admittance.egg-info/PKG-INFO
+writing dependency_links to ur_admittance.egg-info/dependency_links.txt
+writing top-level names to ur_admittance.egg-info/top_level.txt
+reading manifest file 'ur_admittance.egg-info/SOURCES.txt'
+writing manifest file 'ur_admittance.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ur_admittance_egg
+-- Install configuration: ""
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/environment/pythonpath.sh
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/environment/pythonpath.dsv
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance-0.0.1-py3.10.egg-info
+-- Installing: /home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance-0.0.1-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance/__init__.py
+Listing '/home/chintu/ur_ws/install/ur_admittance/local/lib/python3.10/dist-packages/ur_admittance'...
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/lib/ur_admittance/admittance_controller.py
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/launch
+-- Installing: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/launch/ur3e_admittance_control.launch.py
+-- Installing: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/launch/spawn_ur3e_gripper.launch.py
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/config
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/config/ur3e_controllers_gripper.yaml
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/urdf
+-- Installing: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/urdf/ur3e_robot_with_ft.urdf.xacro
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/urdf/ft_sensor_sim.ros2_control.xacro
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/rviz
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/rviz/ur3e_admittance.rviz
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ament_index/resource_index/package_run_dependencies/ur_admittance
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ament_index/resource_index/parent_prefix_path/ur_admittance
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/environment/path.sh
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/environment/path.dsv
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/local_setup.bash
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/local_setup.sh
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/local_setup.zsh
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/local_setup.dsv
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/package.dsv
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ament_index/resource_index/packages/ur_admittance
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/cmake/ur_admittanceConfig.cmake
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/cmake/ur_admittanceConfig-version.cmake
+-- Up-to-date: /home/chintu/ur_ws/install/ur_admittance/share/ur_admittance/package.xml

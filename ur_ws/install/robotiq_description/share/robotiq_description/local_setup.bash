@@ -1,0 +1,1 @@
+/home/chintu/ur_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.bash

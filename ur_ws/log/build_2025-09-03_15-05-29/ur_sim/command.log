@@ -1,0 +1,2 @@
+Invoking command in '/home/chintu/ur_ws/build/ur_sim': /usr/bin/cmake /home/chintu/ur_ws/src/ur_sim -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur_sim
+Invoked command in '/home/chintu/ur_ws/build/ur_sim' returned '1': /usr/bin/cmake /home/chintu/ur_ws/src/ur_sim -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur_sim

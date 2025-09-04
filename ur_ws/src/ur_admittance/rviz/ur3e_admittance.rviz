@@ -1,0 +1,51 @@
+{
+  "Visualization Manager": {
+    "Class": "rviz_common/Visualization Manager",
+    "Displays": [
+      {
+        "Class": "rviz_default_plugins/RobotModel",
+        "Name": "RobotModel",
+        "Enabled": true,
+        "Visual Enabled": true,
+        "Collision Enabled": false
+      },
+      {
+        "Class": "rviz_default_plugins/TF",
+        "Name": "TF",
+        "Enabled": true,
+        "Frame Timeout": 15,
+        "Show Names": true,
+        "Show Axes": true
+      },
+      {
+        "Class": "rviz_default_plugins/Wrench",
+        "Name": "FT Sensor",
+        "Topic": "/ft_sensor/wrench",
+        "Enabled": true,
+        "Arrow Width": 0.5,
+        "Alpha": 1.0,
+        "Force Color": {
+          "R": 204,
+          "G": 51,
+          "B": 51
+        },
+        "Torque Color": {
+          "R": 51,
+          "G": 51,
+          "B": 204
+        },
+        "Force Scale": 0.1,
+        "Torque Scale": 0.1,
+        "Width": 0.1
+      }
+    ]
+  },
+  "Global Options": {
+    "Fixed Frame": "base_link",
+    "Background Color": {
+      "R": 48,
+      "G": 48,
+      "B": 48
+    }
+  }
+}

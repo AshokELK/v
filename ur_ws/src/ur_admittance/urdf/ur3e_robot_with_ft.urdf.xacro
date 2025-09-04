@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur3e_robot">
+
+  <!-- Include the main UR3e robot macro -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+  
+  <!-- Include FT sensor -->
+  <xacro:include filename="$(find ur_admittance)/urdf/ft_sensor_sim.ros2_control.xacro"/>
+  
+  <!-- Include Robotiq gripper -->
+  <xacro:include filename="$(find robotiq_description)/urdf/robotiq_2f_140_macro.urdf.xacro"/>
+  
+  <!-- Robot parameters -->
+  <xacro:arg name="name" default="ur"/>
+  <xacro:arg name="prefix" default=""/>
+  <xacro:arg name="joint_limit_params" default="$(find ur_description)/config/ur3e/joint_limits.yaml"/>
+  <xacro:arg name="kinematics_params" default="$(find ur_description)/config/ur3e/default_kinematics.yaml"/>
+  <xacro:arg name="physical_params" default="$(find ur_description)/config/ur3e/physical_parameters.yaml"/>
+  <xacro:arg name="visual_params" default="$(find ur_description)/config/ur3e/visual_parameters.yaml"/>
+  
+  <!-- Simulation parameters -->
+  <xacro:arg name="safety_limits" default="false"/>
+  <xacro:arg name="safety_pos_margin" default="0.15"/>
+  <xacro:arg name="safety_k_position" default="20"/>
+  <xacro:arg name="use_fake_hardware" default="true"/>
+  <xacro:arg name="fake_sensor_commands" default="false"/>
+  <xacro:arg name="sim_gazebo" default="false"/>
+  <xacro:arg name="sim_ignition" default="false"/>
+  
+  <!-- TF frame parameters -->
+  <xacro:arg name="tf_prefix" default="$(arg prefix)"/>
+  
+  <!-- Instantiate UR3e -->
+  <xacro:ur_robot name="$(arg name)"
+                  prefix="$(arg prefix)"
+                  parent="world"
+                  joint_limits_parameters_file="$(arg joint_limit_params)"
+                  kinematics_parameters_file="$(arg kinematics_params)"
+                  physical_parameters_file="$(arg physical_params)"
+                  visual_parameters_file="$(arg visual_params)"
+                  safety_limits="$(arg safety_limits)"
+                  safety_pos_margin="$(arg safety_pos_margin)"
+                  safety_k_position="$(arg safety_k_position)"
+                  use_fake_hardware="$(arg use_fake_hardware)"
+                  sim_gazebo="$(arg sim_gazebo)"
+                  sim_ignition="$(arg sim_ignition)"
+                  tf_prefix="$(arg tf_prefix)">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- Add FT sensor -->
+  <xacro:ft_sensor prefix="$(arg prefix)" parent="$(arg prefix)tool0"/>
+
+  <!-- Add Robotiq gripper -->
+  <xacro:robotiq_2f_140_gripper prefix="$(arg prefix)" parent="$(arg prefix)ft_sensor"/>
+
+  <!-- Add ros2_control tags for FT sensor -->
+  <xacro:ft_sensor_gazebo prefix="$(arg prefix)" parent="$(arg prefix)tool0"/>
+
+</robot>

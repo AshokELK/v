@@ -1,0 +1,7 @@
+ft_sensor_broadcaster_controller:
+  type: force_torque_sensor_broadcaster/ForceTorqueSensorBroadcaster
+  ros__parameters:
+    sensor_name: tcp_fts_sensor
+    frame_id: tool0
+    topic_name: ft_sensor/raw
+    publish_rate: 100

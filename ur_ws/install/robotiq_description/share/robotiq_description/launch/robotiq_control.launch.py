@@ -1,0 +1,1 @@
+/home/chintu/ur_ws/src/ros2_robotiq_gripper/robotiq_description/launch/robotiq_control.launch.py

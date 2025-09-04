@@ -1,0 +1,89 @@
+[0.017s] Invoking command in '/home/chintu/ur_ws/build/ur_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake /home/chintu/ur_ws/src/ur_sim -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur_sim
+[0.039s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.251s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.251s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.251s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.297s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.302s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.308s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.388s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.609s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.723s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.800s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.801s] -- Added test 'lint_cmake' to check CMake code style
+[0.802s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.805s] -- Added test 'xmllint' to check XML markup files
+[0.806s] -- Configuring done
+[0.815s] -- Generating done
+[0.817s] -- Build files have been written to: /home/chintu/ur_ws/build/ur_sim
+[0.830s] Invoked command in '/home/chintu/ur_ws/build/ur_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake /home/chintu/ur_ws/src/ur_sim -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur_sim
+[0.833s] Invoking command in '/home/chintu/ur_ws/build/ur_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --build /home/chintu/ur_ws/build/ur_sim -- -j8 -l8
+[0.911s] Built target ament_cmake_python_symlink_ur_sim
+[1.183s] running egg_info
+[1.183s] creating ur_sim.egg-info
+[1.184s] writing ur_sim.egg-info/PKG-INFO
+[1.184s] writing dependency_links to ur_sim.egg-info/dependency_links.txt
+[1.184s] writing top-level names to ur_sim.egg-info/top_level.txt
+[1.184s] writing manifest file 'ur_sim.egg-info/SOURCES.txt'
+[1.188s] reading manifest file 'ur_sim.egg-info/SOURCES.txt'
+[1.189s] writing manifest file 'ur_sim.egg-info/SOURCES.txt'
+[1.233s] Built target ament_cmake_python_build_ur_sim_egg
+[1.248s] Invoked command in '/home/chintu/ur_ws/build/ur_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --build /home/chintu/ur_ws/build/ur_sim -- -j8 -l8
+[1.262s] Invoking command in '/home/chintu/ur_ws/build/ur_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --install /home/chintu/ur_ws/build/ur_sim
+[1.270s] -- Install configuration: ""
+[1.270s] -- Execute custom install script
+[1.270s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/environment/pythonpath.sh
+[1.282s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/environment/pythonpath.dsv
+[1.293s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim-0.0.0-py3.10.egg-info/PKG-INFO
+[1.305s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.317s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.331s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim-0.0.0-py3.10.egg-info/top_level.txt
+[1.343s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim/__init__.py
+[1.355s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim/apply_force.py
+[1.367s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/admittance_control.launch.py
+[1.368s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/simple_admittance.launch.py
+[1.368s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/spawn_ur3e.launch.py
+[1.368s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/spawn_ur3e_gripper.launch.py
+[1.368s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/spawn_ur3e_gripper_moveit.launch.py
+[1.369s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/ur3e_admittance_control.launch.py
+[1.369s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/view_ur3e_spawn.launch.py
+[1.369s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/launch/view_ur3e_spawn_gripper.launch.py
+[1.369s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/urdf/initial_positions.yaml
+[1.369s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/urdf/robotiq_gripper.ros2_control.xacro
+[1.369s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/urdf/robotiq_gripper_macro.xacro
+[1.369s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/urdf/ur3e.ros2_control.xacro
+[1.370s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/urdf/ur3e_macro.xacro
+[1.370s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/urdf/ur3e_spawn.urdf.xacro
+[1.370s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/urdf/ur3e_spawn_gripper.urdf.xacro
+[1.370s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/config/initial_positions.yaml
+[1.370s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/config/ur3e_controllers.yaml
+[1.370s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/config/ur3e_controllers_gripper.yaml
+[1.371s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/rviz/ur3e_admittance.rviz
+[1.371s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/rviz/view_ur3e_spawn.rviz
+[1.371s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/rviz/view_ur3e_spawn_gripper.rviz
+[1.371s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/lib/ur_sim/simple_admittance_controller.py
+[1.371s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/lib/ur_sim/apply_force.py
+[1.382s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ament_index/resource_index/package_run_dependencies/ur_sim
+[1.383s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ament_index/resource_index/parent_prefix_path/ur_sim
+[1.383s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/environment/ament_prefix_path.sh
+[1.383s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/environment/ament_prefix_path.dsv
+[1.384s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/environment/path.sh
+[1.384s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/environment/path.dsv
+[1.384s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/local_setup.bash
+[1.384s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/local_setup.sh
+[1.384s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/local_setup.zsh
+[1.384s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/local_setup.dsv
+[1.385s] -- Symlinking: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/package.dsv
+[1.396s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ament_index/resource_index/packages/ur_sim
+[1.397s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/cmake/ur_simConfig.cmake
+[1.397s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/cmake/ur_simConfig-version.cmake
+[1.397s] -- Up-to-date symlink: /home/chintu/ur_ws/install/ur_sim/share/ur_sim/package.xml
+[1.437s] Listing '/home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim'...
+[1.437s] Compiling '/home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim/__init__.py'...
+[1.438s] Compiling '/home/chintu/ur_ws/install/ur_sim/local/lib/python3.10/dist-packages/ur_sim/apply_force.py'...
+[1.446s] Invoked command in '/home/chintu/ur_ws/build/ur_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --install /home/chintu/ur_ws/build/ur_sim

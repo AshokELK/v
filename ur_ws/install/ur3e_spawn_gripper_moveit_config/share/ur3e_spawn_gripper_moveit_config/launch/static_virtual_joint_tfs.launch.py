@@ -1,0 +1,1 @@
+/home/chintu/ur_ws/src/ur3e_spawn_gripper_moveit_config/launch/static_virtual_joint_tfs.launch.py

@@ -1,0 +1,1 @@
+/home/chintu/ur_ws/build/ur_sim/ament_cmake_core/ur_simConfig.cmake

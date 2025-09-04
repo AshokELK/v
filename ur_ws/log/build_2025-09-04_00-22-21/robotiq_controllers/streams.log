@@ -1,0 +1,61 @@
+[0.025s] Invoking command in '/home/chintu/ur_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake /home/chintu/ur_ws/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/robotiq_controllers
+[0.039s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.214s] -- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.250s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.253s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.260s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.515s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.515s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.542s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.554s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.576s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.586s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.659s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.679s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.784s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.784s] -- Configured cppcheck include dirs: /home/chintu/ur_ws/src/ros2_robotiq_gripper/robotiq_controllers/include
+[0.784s] -- Configured cppcheck exclude dirs and/or files: 
+[0.785s] -- Added test 'lint_cmake' to check CMake code style
+[0.788s] -- Configuring done
+[0.824s] -- Generating done
+[0.834s] -- Build files have been written to: /home/chintu/ur_ws/build/robotiq_controllers
+[0.851s] Invoked command in '/home/chintu/ur_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake /home/chintu/ur_ws/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/robotiq_controllers
+[0.854s] Invoking command in '/home/chintu/ur_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --build /home/chintu/ur_ws/build/robotiq_controllers -- -j8 -l8
+[0.916s] [35m[1mConsolidate compiler generated dependencies of target robotiq_controllers[0m
+[0.946s] [100%] Built target robotiq_controllers
+[0.964s] Invoked command in '/home/chintu/ur_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --build /home/chintu/ur_ws/build/robotiq_controllers -- -j8 -l8
+[0.966s] Invoking command in '/home/chintu/ur_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --install /home/chintu/ur_ws/build/robotiq_controllers
+[0.977s] -- Install configuration: ""
+[0.979s] -- Execute custom install script
+[0.980s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers//controller_plugins.xml
+[0.981s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp
+[0.982s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.sh
+[0.982s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.dsv
+[0.982s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/ament_index/resource_index/package_run_dependencies/robotiq_controllers
+[0.982s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/ament_index/resource_index/parent_prefix_path/robotiq_controllers
+[0.982s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.sh
+[0.983s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.dsv
+[0.983s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/environment/path.sh
+[0.983s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/environment/path.dsv
+[0.983s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.bash
+[0.983s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.sh
+[0.983s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.zsh
+[0.983s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/local_setup.dsv
+[0.983s] -- Symlinking: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/package.dsv
+[0.995s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/ament_index/resource_index/packages/robotiq_controllers
+[0.995s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robotiq_controllers
+[0.995s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.995s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.995s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[0.995s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.995s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig.cmake
+[0.996s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig-version.cmake
+[0.996s] -- Up-to-date symlink: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/package.xml
+[0.996s] -- Up-to-date: /home/chintu/ur_ws/install/robotiq_controllers/lib/librobotiq_controllers.so
+[0.997s] -- Up-to-date: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport.cmake
+[0.997s] -- Up-to-date: /home/chintu/ur_ws/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport-noconfig.cmake
+[1.001s] Invoked command in '/home/chintu/ur_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --install /home/chintu/ur_ws/build/robotiq_controllers

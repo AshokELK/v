@@ -1,0 +1,57 @@
+[0.015s] Invoking command in '/home/chintu/ur_ws/build/ur_sim': /usr/bin/cmake /home/chintu/ur_ws/src/ur_sim -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur_sim
+[0.037s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.258s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.258s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.258s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.293s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.295s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.304s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.389s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.564s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.612s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.735s] Error parsing '/home/chintu/ur_ws/src/ur_sim/package.xml':
+[0.797s] Traceback (most recent call last):
+[0.798s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.798s]     root = dom.parseString(data)
+[0.798s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.798s]     return expatbuilder.parseString(string)
+[0.798s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.798s]     return builder.parseString(string)
+[0.798s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.798s]     parser.Parse(string, True)
+[0.798s] xml.parsers.expat.ExpatError: no element found: line 1, column 0
+[0.798s] 
+[0.798s] During handling of the above exception, another exception occurred:
+[0.798s] 
+[0.798s] Traceback (most recent call last):
+[0.798s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.798s]     main()
+[0.799s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.799s]     raise e
+[0.799s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.799s]     package = parse_package_string(
+[0.799s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.799s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.799s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/chintu/ur_ws/src/ur_sim/package.xml':
+[0.799s] The manifest contains invalid XML:
+[0.799s] no element found: line 1, column 0
+[0.854s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.854s]   execute_process(/usr/bin/python3
+[0.854s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.854s]   /home/chintu/ur_ws/src/ur_sim/package.xml
+[0.854s]   /home/chintu/ur_ws/build/ur_sim/ament_cmake_core/package.cmake) returned
+[0.855s]   error code 1
+[0.855s] Call Stack (most recent call first):
+[0.855s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.855s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[0.855s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.855s]   CMakeLists.txt:18 (ament_python_install_package)
+[0.855s] 
+[0.855s] [0m
+[0.855s] -- Configuring incomplete, errors occurred!
+[0.855s] See also "/home/chintu/ur_ws/build/ur_sim/CMakeFiles/CMakeOutput.log".
+[0.876s] Invoked command in '/home/chintu/ur_ws/build/ur_sim' returned '1': /usr/bin/cmake /home/chintu/ur_ws/src/ur_sim -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur_sim

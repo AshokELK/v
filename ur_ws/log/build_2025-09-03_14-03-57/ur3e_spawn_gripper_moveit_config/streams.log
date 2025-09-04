@@ -1,0 +1,66 @@
+[0.011s] Invoking command in '/home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config': AMENT_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:/home/chintu/traffic_ws/install/qcar_traffic:/home/chintu/traffic_ws/install/qcar_track:/home/chintu/traffic_ws/install/qcar_slam:/home/chintu/traffic_ws/install/qcar:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake /home/chintu/ur_ws/src/ur3e_spawn_gripper_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.239s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.345s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.709s] -- Configuring done
+[0.712s] -- Generating done
+[0.713s] -- Build files have been written to: /home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config
+[0.719s] Invoked command in '/home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:/home/chintu/traffic_ws/install/qcar_traffic:/home/chintu/traffic_ws/install/qcar_track:/home/chintu/traffic_ws/install/qcar_slam:/home/chintu/traffic_ws/install/qcar:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake /home/chintu/ur_ws/src/ur3e_spawn_gripper_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config
+[0.721s] Invoking command in '/home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config': AMENT_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:/home/chintu/traffic_ws/install/qcar_traffic:/home/chintu/traffic_ws/install/qcar_track:/home/chintu/traffic_ws/install/qcar_slam:/home/chintu/traffic_ws/install/qcar:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --build /home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config -- -j8 -l8
+[0.769s] Invoked command in '/home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:/home/chintu/traffic_ws/install/qcar_traffic:/home/chintu/traffic_ws/install/qcar_track:/home/chintu/traffic_ws/install/qcar_slam:/home/chintu/traffic_ws/install/qcar:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --build /home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config -- -j8 -l8
+[0.772s] Invoking command in '/home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config': AMENT_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:/home/chintu/traffic_ws/install/qcar_traffic:/home/chintu/traffic_ws/install/qcar_track:/home/chintu/traffic_ws/install/qcar_slam:/home/chintu/traffic_ws/install/qcar:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --install /home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config
+[0.780s] -- Install configuration: ""
+[0.780s] -- Execute custom install script
+[0.781s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur3e_spawn_gripper_moveit_config
+[0.791s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur3e_spawn_gripper_moveit_config
+[0.802s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/environment/ament_prefix_path.sh
+[0.813s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/environment/ament_prefix_path.dsv
+[0.824s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/environment/path.sh
+[0.836s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/environment/path.dsv
+[0.847s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/local_setup.bash
+[0.858s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/local_setup.sh
+[0.869s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/local_setup.zsh
+[0.880s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/local_setup.dsv
+[0.891s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/package.dsv
+[0.902s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ament_index/resource_index/packages/ur3e_spawn_gripper_moveit_config
+[0.913s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/cmake/ur3e_spawn_gripper_moveit_configConfig.cmake
+[0.924s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/cmake/ur3e_spawn_gripper_moveit_configConfig-version.cmake
+[0.935s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/package.xml
+[0.947s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/demo.launch.py
+[0.957s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/demo_with_controllers.launch.py
+[0.968s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/move_group.launch.py
+[0.979s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/moveit_rviz.launch.py
+[0.990s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/rsp.launch.py
+[1.001s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/setup_assistant.launch.py
+[1.013s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/spawn_controllers.launch.py
+[1.024s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.035s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/launch/warehouse_db.launch.py
+[1.046s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/chomp_planning.yaml
+[1.057s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/initial_positions.yaml
+[1.068s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/joint_limits.yaml
+[1.079s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/kinematics.yaml
+[1.091s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/lerp_planning.yaml
+[1.102s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/moveit.rviz
+[1.115s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/moveit_controllers.yaml
+[1.129s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/ompl_planning.yaml
+[1.142s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/pilz_cartesian_limits.yaml
+[1.155s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[1.166s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/ros2_controllers.yaml
+[1.177s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/trajopt_planning.yaml
+[1.189s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/ur.ros2_control.xacro
+[1.201s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/ur.srdf
+[1.212s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/config/ur.urdf.xacro
+[1.223s] -- Symlinking: /home/chintu/ur_ws/install/ur3e_spawn_gripper_moveit_config/share/ur3e_spawn_gripper_moveit_config/.setup_assistant
+[1.238s] Invoked command in '/home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chintu/ur_ws/install/ur_sim:/home/chintu/traffic_ws/install/qcar_traffic:/home/chintu/traffic_ws/install/qcar_track:/home/chintu/traffic_ws/install/qcar_slam:/home/chintu/traffic_ws/install/qcar:/home/chintu/traffic_ws/install/qcar_yolo:/home/chintu/traffic_ws/install/qcar_cv:/opt/ros/humble /usr/bin/cmake --install /home/chintu/ur_ws/build/ur3e_spawn_gripper_moveit_config

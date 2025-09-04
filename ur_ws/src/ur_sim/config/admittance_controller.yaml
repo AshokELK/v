@@ -1,0 +1,57 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    admittance_controller:
+      type: admittance_controller/AdmittanceController
+
+admittance_controller:
+  ros__parameters:
+    base_link: "base_link"
+    end_effector_link: "tool0"
+    ft_sensor_ref_frame: "ft_frame"
+    interface_type: "position"  # "position" or "velocity"
+    
+    # Joint configuration
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+      
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+      
+    # Topics
+    ft_states_topic: "/ft_sensor_broadcaster/wrench"
+    
+    # Dynamic parameters (based on reference implementation)
+    mass_matrix: [10.0, 10.0, 10.0, 2.0, 2.0, 2.0]  # Diagonal elements for xyz and rotations
+    damping_matrix: [200.0, 200.0, 200.0, 20.0, 20.0, 20.0]
+    stiffness_matrix: [300.0, 300.0, 300.0, 30.0, 30.0, 30.0]
+    
+    stiffness:
+      x: 300.0
+      y: 300.0
+      z: 300.0
+      rx: 50.0
+      ry: 50.0
+      rz: 50.0
+    
+    # Control parameters
+    force_dead_zone: 
+      x: 2.0
+      y: 2.0
+      z: 2.0
+    torque_dead_zone:
+      x: 0.05
+      y: 0.05
+      z: 0.05
+    
+    publish_rate: 100.0
+    enable_parameter_update_without_reactivation: true
